@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the groove</title>
+    <style>
+        section {
+            width: 38%;
+            font-size: 12px;
+        }
+
+
+        table, td,tr {
+
+            border: 1px solid grey;
+            border-collapse: collapse;
+        }
+
+        .col-1 {
+            width: 78px;
+        }
+
+        .col-2 {
+            width: 500px;
+        }
+
+        .col-2_part-1 {
+            width: 110px;
+
+        }
+
+        .col-2_part-2 {
+            width: 250px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <h1>Welcome to the groove</h1>
+    <hr>
+    <section>
+        
+            <table>
+                <tr>
+                    <td class="col-1"><a>Fiche Personnelle</a></td>
+
+                    <td class="col-2">
+
+                        <form action="Nom" method="GET">
+
+                            <div>
+                                <table>
+                                    <tr>
+                                        <td class="col-2_part-1"> <label for="user_family name">Nom :</label> </td>
+                                        <td class="col-2_part-2"><input type="text" name="user_family name"
+                                                id="user_family name" minlength="1" maxlength="20"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div>
+                                <table>
+                                    <tr>
+                                        <td class="col-2_part-1"> <label for="user_name">Prénom :</label></td>
+                                        <td class="col-2_part-2"><input type="text" name="user_name" id="user_name"
+                                                minlength="1" maxlength="20"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div>
+                                <table>
+                                    <tr>
+
+                                        <td class="col-2_part-1"> <label for="birthday">Date de naissance :</label></td>
+                                        <td class="col-2_part-2"> <input type="date" name="birthday" id="birthday"
+                                                min="2012-01-01"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div>
+                                <table>
+                                    <tr>
+                                        <td class="col-2_part-1"><label for="Gender">Sexe :</label></td>
+                                        <td class="col-2_part-2"> <input type="radio" id="male" name="gender">
+                                            <label for="male">Homme</label>
+                                            <input type="radio" id="female" name="gender">
+                                            <label for="female">femme</label></td>
+                                    </tr>
+                                </table>
+                            </div>
+
+
+                            <div>
+                                <table>
+                                    <tr>
+                                        <td class="col-2_part-1"> <label for="E-mail">Adresse e-mail :</label></td>
+                                        <td class="col-2_part-2"><input type="email" id="E-mail" name="E-mail"
+                                                placeholder="your-email@gmail.com"
+                                                pattern="[a-zA-Z]*.[a-zA-Z]*@gmail.com"></td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div>
+                                <table>
+                                    <tr>
+                                        <td class="col-2_part-1"> <label for="tel">Numéro de téléphone:</label></td>
+
+                                        <td class="col-2_part-2"><input type="tel" id="tel" name="phone"
+                                                placeholder="123-456-7890"></td>
+                                    </tr>
+                                </table>
+                                <div>
+                                    <table>
+                                        <tr>
+                                            <td class="col-2_part-1"> <label for="text">Profession:</label></td>
+                                            <td class="col-2_part-2"> <select name="nom" size="1">
+                                                    <option>Etudiant
+                                                    <option>Enseignant
+                                                    <option>Ingenieur </option>
+                                            </td>
+
+                                            </select>
+                                        </tr>
+                                    </table>
+                                </div>
+
+
+                                <div>
+                                    <table>
+                                        <tr>
+                                            <td class="col-2_part-1"> <label for="Adresse">Adresse:</label></td>
+                                            <td class="col-2_part-2"> <textarea rows="15" cols="32"></textarea></td>
+
+                                        </tr>
+                                    </table>
+                                </div>
+            </table>
+            </form>
+
+            </td>
+            </tr>
+            </table>
+        
+            <table>
+                <tr>
+                    <td class="col-1"> <a>Préférences</a></td>
+
+                    <td class="col-2">
+                        <form action="Nom" method="GET">
+                            <table>
+                                <tr>
+                                    <td><label for="text">Styles de musique:</label></td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <td class="col-2_part-1"><input type="checkbox" id="R and B" name="R and B">
+                                        <label for="R and B">R and B</label></td>
+                                    <td class="col-2_part-2"><input type="checkbox" id="Rock" name="Rock">
+                                        <label for="Rock">Rock</label></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-2_part-1"><input type="checkbox" id="Soul" name="Soul">
+                                        <label for="Soul">Soul</label></td>
+                                    <td class="col-2_part-2"><input type="checkbox" id="Electronic" name="Electronic">
+                                        <label for="Electronic">Electronic</label></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-2_part-1"> <input type="checkbox" id="Jazz" name="Jazz">
+                                        <label for="Jazz">Jazz</label> </td>
+                                    <td class="col-2_part-2"><input type="checkbox" id="Classic" name="Classic">
+                                        <label for="Classic">Classic</label></td>
+                                </tr>
+                            </table>
+                        </form>
+
+                    </td>
+                </tr>
+            </table>
+        
+        
+            <table>
+                <tr>
+                    <td class="col-1"><a>Informations de connexion</a></td>
+
+                    <td class="col-2">
+                        <form action="text" method="POST">
+                            <table>
+                                <tr>
+                                    <td> <label for="username">Login:</label></td>
+                                    <td><input type="text" id="username" name="username"></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-2_part-1"><label for="password">Mot de passe:</label></td>
+                                    <td class="col-2_part-2"><input type="" id="password" name="password"></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-2_part-1"><label for="Confirmer">Confirmer mot de passe:</label></td>
+                                    <td class="col-2_part-2"> <input type="password" id="Confirmer" name="password"><br>
+                                    </td>
+                                <tr>
+                            </table>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        
+
+        
+            <table>
+                <tr>
+                    <td class="col-1"><a></a> </td>
+                    <div class="col-2">
+                        <td class="col-2_part-1"><input type="button" value="envoyer"></td>
+                        <td class="col-2_part-2"><input type="button" value="annuler"></td>
+                    </div>
+                </tr>
+            </table>
+        
+
+    </section>
+</body>
+
+</html>
